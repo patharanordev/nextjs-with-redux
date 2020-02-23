@@ -1,0 +1,24 @@
+{
+  "name": "test-nextjs-redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/pages/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "export NODE_ENV=development && next",
+    "build": "next build",
+    "start": "next start",
+    "prod": "export NODE_ENV=production && npm run build && npm run start"
+  },
+  "author": "PatharaNor",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.2.2",
+    "next-redux-wrapper": "^5.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6"
+  }
+}
